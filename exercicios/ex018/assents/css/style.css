@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: 'Kiddie';
+    src: url('./assents/fonts/Kiddie\ Love.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    width: 100%;
+    max-width: 85vw;
+    margin: 0 auto;
+    padding: 30px 30px;
+}
+.linha{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.coluna{
+    flex-basis: 49%;
+}
+header{
+    background-color: rgb(3, 31, 155);
+    padding-top: 30px;
+}
+header .container{
+    background-color: rgb(247, 247, 247);
+}
+header section{
+    
+}
+header section h1{
+    font-family: 'kiddie', Times, serif;
+    font-size: 3em;
+    font-style: normal;
+    padding: 0;
+    margin: 0;  
+}
+header section p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+main .container{
+}
+main section{
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+@media only screen and (max-width: 768px){
+    .linha{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    main .linha section{
+        width: 65vw;
+        margin: 0 0 20px;
+    }
+}

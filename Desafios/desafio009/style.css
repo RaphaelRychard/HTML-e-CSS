@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.877);
+    font: normal 20px arial;
+    color: white;
+}
+div.link{
+    padding: 15px;
+}
+a{
+    color: white;
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(37, 37, 37);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+div{
+    padding: 3px;
+}
+img{
+    padding: 3px;
+}

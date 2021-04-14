@@ -1,0 +1,23 @@
+body{
+    font: 20px normal;
+    background-color: rgb(48, 48, 48);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+a{
+    color: whitesmoke;
+}
+header{
+    text-align: center;
+    padding: 3px;
+}
+section{
+    margin: auto;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font: 15px italic;
+    color: aqua;
+}

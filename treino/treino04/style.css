@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0;
+}
+div#header_wrap{
+    background-image: linear-gradient(to bottom, #292929, #343434);
+    padding: 25px;
+    color: white;
+    text-indent: 350px;
+}
+section{
+    color: #292929;
+    text-align: justify;
+    padding: 25px;
+    width: 600px;
+    margin: auto;
+}
+p{
+    text-align: left;
+}
+a{
+    color: rgb(12, 72, 141);
+}
+class#acees{
+    color: white;
+}
+div#footer_wrap{
+    background-image: linear-gradient(to bottom, #292929, #343434);
+    padding: 25px;
+    color: white;
+    text-align: center;
+}

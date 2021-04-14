@@ -1,0 +1,129 @@
+/* **** DECLARAÇÃO DE VARIAVEIS
+**** ESTILOS GERAIS
+**** BODY
+**** HEADER
+**** FOOTER
+**** PÁGINA INICIAL
+**** EXTRAS
+**** @MEDIA */
+
+/* ESTILOS GERAIS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 30px;
+    text-align: center;
+    
+}
+.coluna{
+    flex-basis: 49%;
+}
+.linha{
+    display: block;
+}
+/* BODY */
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
+/* HEADER */
+    header{
+        background-color: rgb(255, 255, 255);
+        color: white;
+    }
+    header .container{
+        background-color: rgb(73, 73, 73);
+        color: white;
+    }
+    header .coluna-esquerda{
+        flex-basis: 25%;
+    }
+    header .coluna-direita{
+        flex-basis: 75%;
+        text-align: inherit;
+    }
+   
+    header .coluna h1{
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: bold;
+    }
+    header .coluna img{
+        border: 2px solid white;
+        border-radius: 100%;
+    
+    }
+    
+
+
+/* FOOTER */
+    footer{
+        background-color:   rgb(255, 255, 255);
+        color: whitesmoke;
+        text-align: center;
+    }
+    footer .container{
+        background-color:   rgb(73, 73, 73);
+        color: whitesmoke;
+        text-align: center;
+    }
+/* PAGINA INCIAL */
+    main{
+        background-color: rgb(255, 255, 255);
+    }
+    main .container{
+        background-color: rgb(73, 73, 73);
+        color: white;
+    }
+    main .coluna section{
+        border: 1px solid rgb(175, 172, 172);
+        padding: 30px;
+        margin-bottom: 30px;
+        /* height: 210px; */
+    }
+
+    main .coluna section ul{
+        text-align: left;
+        margin: 10px 10px;
+    }
+    main .coluna section ul li{
+        margin-bottom: 6px;
+        
+    }
+    main .coluna section abbr{ 
+        cursor: help;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+/* ESTRAS*/
+
+/* @MIDIAS */
+@media only screen and (min-width: 768px) {
+    .linha{
+        display: block;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+       
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 600px;
+        padding-top: 30px;
+       /*  text-align: center; */
+    }
+}
+@media only screen and (min-width: 991px){
+    
+}

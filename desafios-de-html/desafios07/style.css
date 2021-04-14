@@ -1,0 +1,41 @@
+/* ESTILOS GERAIS */
+
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* BODY */
+/* HEADER */
+.container{
+    width: 100%;
+    max-width: 85vw;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+header{
+    background-color: rgb(19, 88, 134);
+    color: white;
+    text-align: center;
+    
+}
+header .container{
+    background-color:  rgb(37, 37, 37);
+    padding-bottom: 30px;
+}
+main{
+    background-color: rgb(250, 250, 250);
+}
+
+main .container img{
+    border: 6px solid rgb(19, 88, 134);
+    
+}
+footer{
+    background-color:  rgb(19, 88, 134);
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}

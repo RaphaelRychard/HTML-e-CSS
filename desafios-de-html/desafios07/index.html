@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="lina">
+
+                <section>
+                    <h1>Imagem flexivel</h1>
+                    <p>Você está vendo a imagem completa? Experimente ampliar o tamnho da sua janela, para aproveitar melhor a experiencias &#x1F606</p>
+                </section>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+           
+
+                <picture class="coluna">
+                    <source media="(max-width: 750px )" srcset="imagens/paisagem-p.png" type="image/png">
+                    <source media="(max-width: 880  px)" srcset="imagens/paisagem-m.png" type="image/png">
+                    <img src="imagens/paisagem-g.png"  alt="Imagem grande">
+                </picture>
+                
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <nav>
+                <h2>nada a declarar</h2>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
