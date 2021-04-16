@@ -1,10 +1,6 @@
 
-@font-face {
-    font-family: 'Kiddie';
-    src: url('./assents/fonts/Kiddie\ Love.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
 html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main {
     box-sizing: border-box;
     margin: 0px;
@@ -12,15 +8,28 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
     list-style: none;
     text-decoration: none;
 }
+:root{
+    --corTextoH1: #F2B138;
+    --corTextoH2: #353D40;
+    --corTextoP: #3d4142;
+    --corBackgroudFundoContainer: #A1A5A6;
+    --corBackgroudFundo: url(https://i.pinimg.com/originals/91/d6/50/91d6507dcc920d495282c84feae58fd4.jpg);
+}
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-image: var(--corBackgroudFundo);
     
+    
+
 }
 .container{
     width: 100%;
-    max-width: 85vw;
+    max-width: 95vw;
     margin: 0 auto;
     padding: 30px 30px;
+    background-color: var(--corBackgroudFundoContainer);
+    opacity: 95%;
+    
 }
 .linha{
     display: flex;
@@ -31,31 +40,62 @@ body{
     flex-basis: 49%;
 }
 header{
-    background-color: rgb(3, 31, 155);
     padding-top: 30px;
 }
 header .container{
-    background-color: rgb(247, 247, 247);
-}
-header section{
-    
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
 }
 header section h1{
-    font-family: 'kiddie', Times, serif;
-    font-size: 3em;
-    font-style: normal;
-    padding: 0;
-    margin: 0;  
+    font: bolder 2rem 'Open Sans', sans-serif;
+    color: var(--corTextoH1);
+    text-shadow: 1px 1px 2px #7c51009a;
+    text-align: center;
+    padding: 15px;
 }
 header section p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
+    color: #353D40;
+    text-align: center;
 }
 main .container{
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 30px;
 }
 main section{
-    padding: 10px 10px;
-    border: 1px solid black;
+    padding: 20px 20px;
+    border: 1px solid #3d414283;
+}
+main section h1{
+    color: var(--corTextoH1);
+    text-shadow: 1px 1px 2px #7c510098;
+    font-size: 1.5rem;
+    background-color: #95999a;
+    border-radius: 20px;
+}
+main section h2{
+    font-size: 1.3rem;
+    color: var(--corTextoH2);
+    text-shadow: 1px 1px 1.5px #2020227c;
+    padding: 0 0 10px;
+}
+main section p{
+    margin: 15px 10px;
+    text-indent: 30px;
+    text-align: left;
+    color: var(--corTextoP);
+    font-size: 1rem;
+}
+main section .basico{
+    color: rgb(3, 90, 3);
+}
+main section .intermediario{
+    color: rgb(189, 93, 4);
+}
+main section .Avancado{
+    color: rgb(192, 3, 3);
 }
 @media only screen and (max-width: 768px){
     .linha{
