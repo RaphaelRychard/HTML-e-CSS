@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* PÁGINA PRINCIPAL */
+
+main .container{
+    max-width: 600px;
+    margin: auto;
+}
+
+main .linha{
+    background-color: rgb(214, 175, 0);
+    padding: 25px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.455);
+}
+
+main section h1{
+    color: rgb(243, 243, 243);
+    text-shadow: 2px 2px 5px rgba(171, 171, 171, 0.621);
+    text-align: center;
+    font-size: 2rem;
+}
+
+main section p{
+    color: rgb(243, 243, 243);
+    text-shadow: 2px 2px 5px rgba(171, 171, 171, 0.621);
+    text-indent: 25px;
+    font-size: 1rem;
+
+}
+
+main section ul{
+    color: rgb(29, 29, 29);
+    font-size: 1rem;
+}
+
+main section ul li a{
+    color: white;
+    cursor: alias;
+}
