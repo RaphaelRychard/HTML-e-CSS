@@ -1,2 +1,2 @@
 # HTML e CSS
- Estudos
+ - curso de html atualmente em andamento!
