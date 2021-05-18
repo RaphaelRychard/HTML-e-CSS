@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,500&display=swap');
+
+/* Gerais */
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* Body */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    text-align: center;
+    background-color: rgb(41, 43, 46);
+    width: 1250px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+/* header */
+
+header{
+    padding-top: 15px;
+
+}
+header .container{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+header h1{
+    color: white;
+    text-shadow: 2px 2px 3px rgba(184, 14, 14, 0.233);
+    font-size: 2.2em; 
+    font-weight: bold;
+}
+
+/* main */
+
+main section img{
+  padding: 2px;   
+}
+main section p{
+    width: 600px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.486);
+    font: normal 1em 'Roboto', sans-serif;
+    text-align: center;
+    text-indent: 50px;
+    padding: 15px;
+    margin: auto;
+}
+
+/* footer */
+footer .container{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+footer{
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.363);
+}
+footer p{
+    font: italic oblique 1em 'Roboto', sans-serif;
+}
