@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #505050;
+            margin: 0;
+        }
+        header{
+            background: white;
+            padding: 10px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+        }
+        header > h1:hover{
+            color: rgb(6, 42, 110);
+            font-size: 2.05em;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            align-items: center;
+            margin-left: auto;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(138, 7, 7);
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Menu site</h1>
+
+        <nav>
+            <a href="">Links</a>
+            <a href="">Links</a>
+            <a href="">Links</a>
+            <a href="">Links</a>
+            <a href="">Links</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esporte Pólitica e Tecnologia</p>
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Noticias Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laborum esse ut unde mollitia cum neque, aliquid distinctio cupiditate dolore quasi libero suscipit pariatur, impedit provident assumenda eius quia tempora!</p>
+                <aside><!--É um conteudo periferico ao artigo EX: por altor, -->
+                    <p>Artigo escrito por Raphael Rychard</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvvolvido pelo curso em video</p>
+    </footer>
+    
+</body>
+</html>
