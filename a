@@ -1,5 +1,0 @@
-
-OSH_THEME="powerline"
-POWERLINE_PROMPT_USER_INFO_MODE="sudo"
-POWERLINE_PROMPT="user_info scm python_venv ruby cwd"
-THEME_CLOCK_FORMAT="%H:%M:%S"
