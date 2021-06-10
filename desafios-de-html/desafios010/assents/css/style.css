@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Nue';
+    font-size: normal;
+    font-style: normal;
+    src: url(../font/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: 'droid';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../font/IDroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+:root{    
+    
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e;
+    --fontArial: Arial, Helvetica, sans-serif;
+    --fontNue: 'Nue', cursive;
+    --fontDroid: 'droid', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: rgb(202, 202, 202);
+}
+header{
+    background-image: linear-gradient(180deg, var(--cor3), var(--cor4), var(--cor5));
+    padding-top: 10px;
+    text-align: center;
+    font-family: var(--fontArial);
+    margin: 0 auto;
+}
+header > h1{
+    font: normal 2.3em var(--fontNue);
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.411);
+    padding-top: 5px;
+}
+header > p{
+    font: normal 1em var(--fontArial);
+    max-width: 500px;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.308);
+
+}
+nav{
+    background: var(--cor5);
+    padding: 10px;
+    box-shadow: 4px 5px 3px 1px rgb(0 0 0 / 14%);
+
+}
+nav > a{
+    color: var(--cor1);
+    text-decoration: none;
+    padding: 10px 5px;
+    align-items: center;
+    font: normal bolder 1rem sans-serif;
+    
+}
+nav > a:hover {
+    background-image: linear-gradient(180deg, var(--cor3), var(--cor4));
+    border-radius: 4px;
+    color: var(--cor5);
+}
+main{
+    background-color: white;
+    max-width: 925px;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: 0px 2px 7px 1px  rgba(0, 0, 0, 0.219);
+}
+main > article{
+    padding: 20px;
+}
+main > article > h1{
+    margin: 0;
+    font: normal normal 1.6em var(--fontDroid);
+    color: var(--cor5);
+    
+}
+main > article > h2{
+    padding: 4px;
+    font: normal normal 1.3em var(--fontDroid);
+    color: var(--cor4);
+    background-image:linear-gradient(to right, var(--cor1), #88cca773, #a2e5c000);
+    
+}
+main > article > p{
+    font: normal lighter 1em 'Open Sans', sans-serif;
+    text-indent: 50px;
+    text-align: justify;
+    color: #161616ec;
+}
+main > article > figure{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+main > article > figure > img{
+    width: 800px;
+    margin: 0 auto;  
+    padding: 0;
+}
+main > article > figure > figcaption{
+    text-align: left;
+    font: normal normal 1em 'Open Sans', sans-serif;
+   text-indent: 50px;
+}
+main > article > p > cite > a{
+    color: var(--cor5);
+    background-color: var(--cor1);
+    font: normal bolder 1em 'Open Sans', sans-serif;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 1px;
+}
+main > article > p > cite > a:hover{
+    text-decoration: 1px underline rgba(0, 0, 0, 0.432);
+}
