@@ -64,7 +64,7 @@ nav > a{
     
 }
 nav > a:hover {
-    background-image: linear-gradient(180deg, var(--cor3), var(--cor4));
+    background-color: var(--cor3);
     border-radius: 4px;
     color: var(--cor5);
 }
@@ -78,41 +78,32 @@ main{
 main > article{
     padding: 20px;
 }
-main > article > h1{
+main > article > section > h1{
     margin: 0;
     font: normal normal 1.6em var(--fontDroid);
     color: var(--cor5);
     
 }
-main > article > h2{
+main > article > section > h2{
     padding: 4px;
     font: normal normal 1.3em var(--fontDroid);
     color: var(--cor4);
-    background-image:linear-gradient(to right, var(--cor1), #88cca773, #a2e5c000);
-    
+    text-align: left;
+    background-image: linear-gradient(to right, var(--cor1), #88cca773, #a2e5c000);
 }
-main > article > p{
+
+
+main > article > section > p{
     font: normal lighter 1em 'Open Sans', sans-serif;
-    text-indent: 50px;
+    text-indent: 40px;
     text-align: justify;
     color: #161616ec;
+    line-height: 2em;
 }
-main > article > figure{
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-main > article > figure > img{
-    width: 800px;
-    margin: 0 auto;  
-    padding: 0;
-}
-main > article > figure > figcaption{
+main > article > section > figure{
     text-align: left;
-    font: normal normal 1em 'Open Sans', sans-serif;
-   text-indent: 50px;
 }
-main > article > p > cite > a{
+main > article > section > p > cite > a{
     color: var(--cor5);
     background-color: var(--cor1);
     font: normal bolder 1em 'Open Sans', sans-serif;
@@ -120,6 +111,9 @@ main > article > p > cite > a{
     padding: 3px;
     border-radius: 1px;
 }
-main > article > p > cite > a:hover{
+main > article > section > p > cite > a:hover{
     text-decoration: 1px underline rgba(0, 0, 0, 0.432);
+}
+.bugDroidImd{
+    text-align: center;
 }
