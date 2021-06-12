@@ -80,25 +80,23 @@ main{
 main > section{
    background-color: white;
    margin: 0 auto;
-   max-width: 800px;
+   max-width: 900px;
    box-shadow: 0px 0px 6px 1px #00000030;
    
 }
+main > section > article {
+    padding: 10px 10px 0px 10px;
+}
+
 main  img{
     width: 100%;
     padding: 10px;
 }
 main figure{
     width: 350px;
-   
     margin: auto;
 }
-main > section > article {
-    padding: 15px 25px 0px;
-}
-main > section > article > p > strong{
-    color: var(--cor4);
-}
+
 
 main > section > article > h1{
     font: normal normal 1.8em var(--IDroidFont);
@@ -115,9 +113,15 @@ main > section > article > h2{
     background-image: linear-gradient(to right, var(--cor1), var(--cor0), white);
 
 }
-main > section > article > p{
-    text-align: left;   
-    text-indent: 60px;
+main > section > article > p {
+    font: normal normal 1em var(--ArialFont);
+    color: #242424;
+    line-height: 2em;
+    text-indent: h;
+    text-align: justify;
+}
+main > section > article > p > strong{
+    color: var(--cor4);
 }
 main > section > article > p > a{
    background: var(--cor1);
@@ -129,13 +133,35 @@ main > section > article > p > a{
 main > section > article > p > a:hover{
     text-decoration: underline;
 }
-main > section > article > p{
-    font: normal normal 1em var(--ArialFont);
-    color: #242424;
-    line-height: 2em;
+
+div.video {
+    position: relative;
+    background-color: var(--cor4);
+    height: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 56%;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
+div.tabela > article{
+    background-color: var(--cor1);
+    
+}
+div.tabela  >  h2{
+    text-align: left;
+    color: white;
+    background-color: var(--cor4);
+    font:normal normal 1.3em var(--ArialFont)
 
+}
 footer{
     background-color: black;
     padding: 80px;
