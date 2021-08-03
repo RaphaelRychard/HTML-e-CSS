@@ -29,7 +29,9 @@ body{
     background-color: #e2e2e2;
     font-family: var(--fonte-padrão);
 }
-
+a.externo::after {
+    content: '\00A0\1F517';
+}
 header{
    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
@@ -124,7 +126,39 @@ main img.pequena{
     display: block;
     margin: auto;
 }
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233);
+}
+
+aside ul {
+    list-style-type: "\2714\00A0\00A0";/* Não é compativel com todo os navegadores o ----> \00A0 */
+    list-style-position: inside;   
+    transition: 1;
+    columns: 2;
+}
+aside h3 {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0 -10px; 
+    border-radius: 10px 10px 0 0;
+}
 footer{
     background-color: var(--cor5);
     color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
 }
