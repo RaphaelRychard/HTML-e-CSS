@@ -1,0 +1,33 @@
+.main-header {
+    background-image: linear-gradient(to bottom, var(--color-0), var(--color-3));
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    padding: 20px;
+}
+
+.main-header .title {
+    font-size: calc(1.8em + 2.5vw);
+    text-shadow: 2px 2px 3px #00000015;
+
+    color: white;
+    text-transform: uppercase;
+
+    font-weight: bolder;
+    font-family: var(--font-BebasNunes);
+    font-style: normal;
+}
+
+.main-header .text {
+    font-size: 1em;
+    font-weight: 100;
+
+    text-shadow: 2px 2px 3px #00000015;
+    color: #ffffffcb;
+    font-family: var(--font-default);
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(../assets/fonts/idroid.otf) format("opentype");
+}
+
+:root {
+    --color-0: #83E1AD;
+    --color-1: #3DDC84;
+    --color-2: #2FA866;
+    --color-3: #1A5C37;
+    --color-4: #063d1e;
+
+    --font-default: 'Open Sans', sans-serif;
+    --font-title: idroid, sans-serif;
+    --font-BebasNunes: 'Bebas Neue', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+
+body {
+    font-family: var(--font-default);
+    background-color: var(--color-0);
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    list-style-position: inside;
+}

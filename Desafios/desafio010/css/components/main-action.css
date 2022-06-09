@@ -1,0 +1,14 @@
+.main-action {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-shadow: 2px 2px 3px #0000002f;
+    transition: all 500ms;
+
+    font-size: calc(1em);
+}
+
+.main-action:hover {
+    background-color: var(--color-2);
+    color: black;
+}

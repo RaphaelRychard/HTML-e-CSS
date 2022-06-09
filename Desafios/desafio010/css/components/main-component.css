@@ -1,0 +1,16 @@
+.main-component {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    background-color: white;
+    padding: 10px;
+}
+
+.main-component .boxImage {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.main-component .boxImage img.img-bug {
+    width: 100%;
+}

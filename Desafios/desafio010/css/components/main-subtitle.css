@@ -1,0 +1,12 @@
+.main-subtitle {
+    font-size: calc(1.2em + 1vw);
+    text-shadow: 2px 2px 3px #00000015;
+    padding-left: 10px;
+
+    color: var(--color-3);
+    background-image: linear-gradient(to left, transparent,  var(--color-0));
+
+    text-transform: uppercase;
+}
+
+
