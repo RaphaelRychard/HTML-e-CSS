@@ -1,0 +1,21 @@
+.main-section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.main-section.main-section.imagem > p {
+    background-color: black;
+    display: inline-block;
+    width: 500px;
+}
+
+.main-section.normal {
+    background-color: white;
+}
+
+.main-section.imagem {
+    background-color: #2d2e2f;
+    color: white;
+}
