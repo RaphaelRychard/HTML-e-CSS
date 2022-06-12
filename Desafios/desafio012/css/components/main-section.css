@@ -3,12 +3,14 @@
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+
+    font-family: var(--font3);
+    font-size: calc(1em + 1.2vw);
 }
 
 .main-section.main-section.imagem > p {
     background-color: black;
     display: inline-block;
-    width: 500px;
 }
 
 .main-section.normal {

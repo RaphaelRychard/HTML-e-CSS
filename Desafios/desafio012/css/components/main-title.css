@@ -1,3 +1,5 @@
 .main-title {
     font-variant: small-caps; /* ->>  em maiusculos de forma nos gritante */
+    font-family: var(--font2);
+    font-size: calc(2em + 3.5vw);
 }
