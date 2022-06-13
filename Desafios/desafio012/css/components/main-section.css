@@ -7,17 +7,46 @@
     font-family: var(--font3);
     font-size: calc(1em + 1.2vw);
 }
+.main-section p {
+    text-shadow: 2px 2px 3px #00000013;
+}
 
 .main-section.main-section.imagem > p {
-    background-color: black;
+    background-color: #1b191979;
     display: inline-block;
+    padding: 10%;
+    padding-left: 20px;
 }
 
 .main-section.normal {
     background-color: white;
 }
 
+.main-section.normal > p {
+    padding-bottom: 1.5em;
+}
+
 .main-section.imagem {
-    background-color: #2d2e2f;
+    background-color: #222222f4;
     color: white;
+    box-shadow: inset 5px 5px 13px 0px #0000006e;
+}
+
+.main-section.imagem.img-1{
+    background: url(/image/background001.jpg) right center fixed no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main-section.imagem.img-2{
+    background: url(/image/background002.jpg) right center fixed no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
 }
