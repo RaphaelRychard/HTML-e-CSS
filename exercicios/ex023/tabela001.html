@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabelas</title>
+        <style>
+            * {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            body {
+                background-color: #ededed;
+            }
+
+
+
+            
+            table { 
+                width: 500px;
+                height: 500px;
+                border-collapse: collapse;
+            }
+
+            td {
+                padding: 8px;
+                border: 1px black solid;
+                text-align: right; /* 
+                    Alinhamneot de texto horizontal 
+                        center -> Centro
+                        left -> Esquerda
+                        right -> Direita
+                */
+                vertical-align: middle; /* 
+                    Alinhamento vertical 
+                        middle -> No meio
+                        top -> Em cima
+                        bottom -> Em baixo                
+                */
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Minha primeira Tabela</h1>
+        
+        <!-- HIERARQUIA DE TABELAS (SIMPLES)    
+            !  TABLE ===> Tabelas. 
+                ! TABLE ROW ===> Linhas de TAbelas
+
+                    ? TABLE HEADER ===> Cabeçalho de tabela
+                    ? TABLE DATA ===> Dados de Tableas
+                         border-collapse: collapse; ==> USADO DENTRO DA TABLE
+                                          collapse  -> as celulas são juntas.
+                                          separate -> as celulas são separadas.
+         -->
+         <table> <!-- ? ===> o table é tipo um container da tabela -->
+            <tr><!-- TABLE ROW -> [TR]  PRIMEIRA LINHA-->
+                    <td>A1</td> <!-- TABLE ROW -> [TD]  Colula --> 
+                    <td>B1</td> <!-- TABLE ROW -> [TD]  Colula --> 
+                    <td>C1</td> <!-- TABLE ROW -> [TD]  Colula --> 
+            </tr> 
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C3</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+            </tr>
+            <tr>
+                <td>A4</td>
+                <td>B4</td>
+                <td>C4</td>
+            </tr>
+         </table>
+
+    </body>
+</html>

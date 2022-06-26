@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabelas Grandes</title>
+        <style>
+            table {
+                width: 500px;
+                font-size: 1.2em;
+                border-collapse: collapse;
+            }
+            td, th{
+                border: 1px solid black;
+                padding: 10px;
+            }
+            th {
+                background-color: #1e1e1e;
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+            <!-- ANATOMIAS PARA TABELAS GRANDES 
+                ! TABLE
+                    ? THEAD
+                        TR, TD, TH
+                    ? TBODY 
+                        TR, TD, TH
+                    ? TFOOT
+                        TR(linha), TD (celulas colunas), TH (celulas cabeçalho)
+             -->
+
+
+             <table>
+                <thead>
+                    <tr> <!-- linha -->
+                        <th>Estado</th>  <!-- celula coluna -->
+                        <th>População 2021</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>São Paulo</td>
+                        <td>46 649 132</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th>Total de Habitantes</th>
+                        <th>0000</th>
+                    </tr>
+                </tfoot>
+
+             </table>
+
+    </body>
+
+</html>
