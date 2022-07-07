@@ -15,7 +15,7 @@
             table {
                 width: 500px;
                 font-size: 1.2em;
-                border-collapse: collapse;
+                border-collapse: collapse; 
             }
             td, th{
                 border: 1px solid black;
@@ -31,7 +31,7 @@
             }
 
             td.num::before, th.num::before {
-                content: 'R$: ';   
+                content: 'R$ ';   
             }
 
             caption {
@@ -42,6 +42,19 @@
                 padding: 10px;
                 background-color: lightgray;
 
+            }
+
+            tbody > tr:nth-child(odd){ /* Odd é impar ou 2n-1 */
+                background-color: #ffffff;
+                font-weight: bolder;
+            }
+
+            tbody > tr:nth-child(even){  /* even é par ou 2n */
+                background-color: #d3d3d3;
+            }
+
+            .polp {
+                width: 150px;
             }
 
         </style>
@@ -66,8 +79,8 @@
 
                 <thead>
                     <tr> <!-- linha -->
-                        <th>Estado</th>  <!-- celula coluna -->
-                        <th>População 2021</th>
+                        <th scope="col">Estado</th>  <!-- celula coluna -->
+                        <th scope="col" class="polp">População 2021</th>
                     </tr>
                 </thead>
                 
@@ -212,8 +225,8 @@
 
                 <tfoot>
                     <tr>
-                        <th>Total de Habitantes</th>
-                        <th class="num"><strong>202.892.634</strong></th>
+                        <th scope="row">Total de Habitantes</th>
+                        <th class="num" scope="row"><strong>202.892.634</strong></th>
                     </tr>
                     
                 </tfoot>
