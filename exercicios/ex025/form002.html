@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            * {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Meu primeiro FORMULARIO</h1>
+
+        <!-- é um local onde o seu cliente pode quardar dados -->
+        <!-- autocomplete -> desliga o autocomplite do formulario -->
+        <form action="" method="post"> 
+
+            <p>
+                <label for="iuser">Usuário</label>
+                <input type="text" name="user" id="iuser" required minlength="5" maxlength="15" placeholder="Nome" autocomplete="name">
+            </p>
+
+            <p>
+                <label for="isen">Senha:</label>
+                <input type="password" name="sen" id="isen" required minlength="8" maxlength="128" placeholder="Senha" autocomplete="off">
+            </p>
+
+            <p>
+    
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+
+    </body>
+
+</html>

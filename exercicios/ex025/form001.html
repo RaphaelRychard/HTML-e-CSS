@@ -16,16 +16,17 @@
     <body>
         <h1>Meu primeiro FORMULARIO</h1>
 
-        <form action="" method="get" autocomplete="off"> <!-- é um local onde o seu cliente pode quardar dados -->
-            <label for="">nome</label>
-            <input type="text" name="nome" id="nome" placeholder="digite seu nome">
+        <!-- é um local onde o seu cliente pode quardar dados -->
+        <!-- autocomplete -> desliga o autocomplite do formulario -->
+        <form action="cadastro.php" method="post"> 
 
-            <label for="">SobreNome</label>
-                <input type="text" name="sibre" id="seibre" placeholder="Digite Seu sobre Nome">
+            <label for="idnome">nome</label><br>
+                <input type="text" name="nome" id="idnome" placeholder="Digite seu nome"><br><br>
+
+            <label for="idsobrenome">Sobrenome</label><br>
+                <input type="text" name="sobrenome" id="idsobrenome" placeholder="Digite Seu Sobrenome"><br><br>
             
-
             <input type="submit" value="Enviar">
-
 
         </form>
 
